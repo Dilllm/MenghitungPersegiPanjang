@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="7dp"
+    android:background="@drawable/gaya"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="70dp"
+        android:padding="10dp"
+        android:layout_gravity="center"
+        android:background="@drawable/idn2" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Masukan Angka Panjang"
+        android:id="@+id/textView"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:id="@+id/editTextpanjang"
+        android:background="#86e3ce"
+        android:inputType="number"
+        android:layout_below="@+id/textView"
+        android:ems="10"/>
+
+    <TextView
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Masukan Angka Lebar"
+        android:id="@+id/textView2"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:layout_height="wrap_content"
+        android:background="#86e3ce"
+        android:id="@+id/editTextlebar"
+        android:inputType="number"
+        android:layout_below="@+id/textView2"
+        android:ems="10"/>
+
+    <Button
+        android:id="@+id/btnLuas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#fa897b"
+        android:gravity="bottom"
+        android:padding="20dp"
+        android:text="Hitung LUAS" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Hasil Luas Persegi Panjang" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:background="#ffdd94"
+        android:padding="10dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextluas"
+        android:inputType="number"
+        android:layout_below="@+id/textView2"
+        android:ems="10"/>
+
+
+
+</LinearLayout>
